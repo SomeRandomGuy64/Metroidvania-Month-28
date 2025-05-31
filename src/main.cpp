@@ -4,8 +4,10 @@
 
 int main() {
 
-	std::unique_ptr<Game> game{ std::make_unique<Game>() };
+	Game* game{ new Game{ 1280, 720 } };
 
 	game->run();
+
+	delete game;
 
 }
