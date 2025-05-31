@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Renderer.h"
+#include "Player.h"
 
 #include <memory>
 
@@ -20,5 +21,6 @@ private:
 private:
 
 	std::unique_ptr<Renderer> m_renderer;
+	std::unique_ptr<Player> m_player;
 
 };

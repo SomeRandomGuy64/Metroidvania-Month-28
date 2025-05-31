@@ -15,6 +15,5 @@ Renderer::Renderer(int width, int height)
 void Renderer::onUpdate() {
 	BeginDrawing();
 		ClearBackground(RAYWHITE);
-		DrawText("Hello, world!", 190, 200, 20, LIGHTGRAY);
 	EndDrawing();
 }
